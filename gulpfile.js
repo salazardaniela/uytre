@@ -14,9 +14,9 @@ gulp.task('sass', function () {
 
 gulp.task('scripts', function () {
 	gulp.src('page/scripts/*.js')
-	// .pipe(jshint())
+	.pipe(jshint())
 	.pipe(jshint.reporter('default'))
-	// .pipe(uglify())
+	.pipe(uglify())
 	.pipe(gulp.dest('deploy/'));
 });
 
