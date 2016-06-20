@@ -1,13 +1,212 @@
 {
 	"title": "Centro | Powering modern media",
+	"menu": "menu",
 	"navigation": [{
 		"link": "#",
-		"text": "Service"
+		"text": "Service",
+		"subitems": [{
+			"link": "#",
+			"text": "User Experience"
+		},{
+			"link": "#",
+			"text": "Graphic Design"
+		},{
+			"link": "#",
+			"text": "development"
+		}]
 	},{
 		"link": "#",
 		"text": "Software"
 	},{
 		"link": "#",
 		"text": "Connect with us"
-	}]
+	}],
+	"readMore": "Learn More",
+	"slider": [{
+		"src": "images/slider-1.jpg",
+		"alt": "text",
+		"link": "#",
+		"text": "No more spreadsheets (so that explains the smile)",
+		"textImage": "images/text-slider-1.png"
+	},{
+		"src": "images/slider-1.jpg",
+		"alt": "text",
+		"link": "#",
+		"text": "No more spreadsheets (so that explains the smile)",
+		"textImage": "images/text-slider-1.png"
+	},{
+		"src": "images/slider-1.jpg",
+		"alt": "text",
+		"link": "#",
+		"text": "No more spreadsheets (so that explains the smile)",
+		"textImage": "images/text-slider-1.png"
+	}],
+	"internalSections": [{
+		"link": "#",
+		"text": "Agencies"
+	},{
+		"link": "#",
+		"text": "Publishers"
+	},{
+		"link": "#",
+		"text": "About us"
+	},{
+		"link": "#",
+		"text": "Learning Center"
+	},{
+		"link": "#",
+		"text": "Blog"
+	},{
+		"link": "#",
+		"text": "News"
+	}],
+	"socialText": "Follow us",
+	"social": [{
+		"alias": "twitter",
+		"link": "#",
+		"text": "Twitter"
+	},{
+		"alias": "fb",
+		"link": "#",
+		"text": "Facebook"
+	},{
+		"alias": "youtube",
+		"link": "#",
+		"text": "Youtube"
+	},{
+		"alias": "linkedin",
+		"link": "#",
+		"text": "Linkedin"
+	},{
+		"alias": "google",
+		"link": "#",
+		"text": "Google+"
+	},{
+		"alias": "rss",
+		"link": "#",
+		"text": "Rss"
+	}],
+	"feature": [{
+		"title": "Testimonials",
+		"isVideo": true,
+		"link": "images/video.jpg",
+		"alt": "testimonial",
+		"name": "Ann Charles",
+		"position": "CEO",
+		"type": "Brandfog"
+	},{
+		"title": "See it",
+		"isVideo": false,
+		"link": "images/see-it.jpg",
+		"alt": "testimonial",
+		"product": "Centro planner",
+		"text": " is the first in a family of products being developed to help accelerate digital ad campaign execution."
+	},{
+		"title": "Try it",
+		"isVideo": false,
+		"link": "images/try-it.jpg",
+		"alt": "testimonial",
+		"text": "Sed quis ligula est, vitae suscipit sem. Integer orci tortor, tempus eget rhoncus quis, vehicula et elit. Mauris iaculis scelerisque lacus."
+	}],
+	"siteMap": [{
+		"name": "Services",
+		"links": [{
+			"link": "#",
+			"text": "Media Strategy"
+		},{
+			"link": "#",
+			"text": "Media Planning & Buying"
+		},{
+			"link": "#",
+			"text": "Campaign Management & Analysis"
+		},{
+			"link": "#",
+			"text": "Contract Fulfillment & Billing"
+		}]
+	},{
+		"name": "Software",
+		"links": [{
+			"link": "#",
+			"text": "Planner"
+		},{
+			"link": "#",
+			"text": "Insight"
+		},{
+			"link": "#",
+			"text": "Finance"
+		},{
+			"link": "#",
+			"text": "TBD"
+		},{
+			"link": "#",
+			"text": "RTB"
+		},{
+			"link": "#",
+			"text": "Support"
+		}]
+	},{
+		"name": "Publishers",
+		"links": [{
+			"link": "#",
+			"text": "Brand Exchange"
+		},{
+			"link": "#",
+			"text": "Publisher Logistics"
+		},{
+			"link": "#",
+			"text": "Become a Publisher Partner"
+		}]
+	},{
+		"name": "Learning Center",
+		"links": [{
+			"link": "#",
+			"text": "Case Studies"
+		},{
+			"link": "#",
+			"text": "White Papers"
+		},{
+			"link": "#",
+			"text": "Creative Showcase"
+		},{
+			"link": "#",
+			"text": "Video Library"
+		},{
+			"link": "#",
+			"text": "Blog"
+		}]
+	},{
+		"name": "Why Centro",
+		"links": [{
+			"link": "#",
+			"text": "Subpage 1"
+		},{
+			"link": "#",
+			"text": "Subpage 2"
+		},{
+			"link": "#",
+			"text": "Subpage 3"
+		},{
+			"link": "#",
+			"text": "Subpage 4"
+		}]
+	},{
+		"name": "More Centro",
+		"links": [{
+			"link": "#",
+			"text": "About"
+		},{
+			"link": "#",
+			"text": "News"
+		},{
+			"link": "#",
+			"text": "Careers"
+		},{
+			"link": "#",
+			"text": "Privacy Policy"
+		},{
+			"link": "#",
+			"text": "Conect with us"
+		}]
+	}],
+	"copyright": "© Copyright 2014 - All rights reserved"
 }

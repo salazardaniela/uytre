@@ -2,16 +2,168 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Centro | Powering modern media</title>
+	<link rel="stylesheet" href="main.css">
 </head>
 <body>
 	<header>
 		<h1><a href="/">Centro | Powering modern media</a></h1>
-		<nav>
-				<a href="#">Service</a>
-				<a href="#">Software</a>
-				<a href="#">Connect with us</a>
+		<a id="btn-menu" class="open" href="javascript:;">menu</a>
+		<nav class="main-sections">
+				<a href="#" class="sub-items">Service</a>
+					<ul>
+							<li><a href="#">User Experience</a></li>
+							<li><a href="#">Graphic Design</a></li>
+							<li><a href="#">development</a></li>
+					</ul>
+				<a href="#" class="">Software</a>
+				<a href="#" class="">Connect with us</a>
 		</nav>
+		<form action="#">
+			<input type="search" placeholder="Search" />
+			<input type="submit" />
+		</form>
 	</header>
+	<div class="slider">
+		<a href="javascript:;" id="prev-item"></a>
+		<div id="gallery">
+			<ul class="gallery-wrapper">
+				<li>
+					<img class="text" src="images/text-slider-1.png" alt="No more spreadsheets (so that explains the smile)" draggable="false">
+					<a href="#">Learn More</a>
+					<img src="images/slider-1.jpg" alt="text" draggable="false">
+				</li>
+				<li>
+					<img class="text" src="images/text-slider-1.png" alt="No more spreadsheets (so that explains the smile)" draggable="false">
+					<a href="#">Learn More</a>
+					<img src="images/slider-1.jpg" alt="text" draggable="false">
+				</li>
+				<li>
+					<img class="text" src="images/text-slider-1.png" alt="No more spreadsheets (so that explains the smile)" draggable="false">
+					<a href="#">Learn More</a>
+					<img src="images/slider-1.jpg" alt="text" draggable="false">
+				</li>
+			</ul>
+		</div>
+		<a href="javascript:;" id="next-item"></a>
+	</div>
+	<section class="aditional-links">
+		<div>
+			<nav>
+					<a href="#">Agencies</a>
+					<a href="#">Publishers</a>
+					<a href="#">About us</a>
+					<a href="#">Learning Center</a>
+					<a href="#">Blog</a>
+					<a href="#">News</a>
+			</nav>
+				<div>
+					<p>Follow us</p>
+					<ul>
+							<li>
+								<a class="link-twitter" href="#">Twitter</a>
+							</li>
+							<li>
+								<a class="link-fb" href="#">Facebook</a>
+							</li>
+							<li>
+								<a class="link-youtube" href="#">Youtube</a>
+							</li>
+							<li>
+								<a class="link-linkedin" href="#">Linkedin</a>
+							</li>
+							<li>
+								<a class="link-google" href="#">Google+</a>
+							</li>
+							<li>
+								<a class="link-rss" href="#">Rss</a>
+							</li>
+					</ul>
+				</div>
+		</div>
+	</section>
+	<section class="information">
+			<div>
+				<h3>Testimonials</h3>
+				<figure >
+					<img src="images/video.jpg" alt="testimonial">
+						<figcaption>
+							<em>Ann Charles</em> CEO, Brandfog
+						</figcaption>
+				</figure>
+			</div>
+			<div>
+				<h3>See it</h3>
+				<figure >
+					<img src="images/see-it.jpg" alt="testimonial">
+				</figure>
+					<p>
+						<em>Centro planner</em>
+						 is the first in a family of products being developed to help accelerate digital ad campaign execution.
+					</p>
+			</div>
+			<div>
+				<h3>Try it</h3>
+				<figure >
+					<img src="images/try-it.jpg" alt="testimonial">
+				</figure>
+					<p>
+						
+						Sed quis ligula est, vitae suscipit sem. Integer orci tortor, tempus eget rhoncus quis, vehicula et elit. Mauris iaculis scelerisque lacus.
+					</p>
+			</div>
+	</section>
+	<footer>
+		<section class="site-map">
+				<div>
+					<h4>Services</h4>
+						<a href="#">Media Strategy</a>
+						<a href="#">Media Planning &amp; Buying</a>
+						<a href="#">Campaign Management &amp; Analysis</a>
+						<a href="#">Contract Fulfillment &amp; Billing</a>
+				</div>
+				<div>
+					<h4>Software</h4>
+						<a href="#">Planner</a>
+						<a href="#">Insight</a>
+						<a href="#">Finance</a>
+						<a href="#">TBD</a>
+						<a href="#">RTB</a>
+						<a href="#">Support</a>
+				</div>
+				<div>
+					<h4>Publishers</h4>
+						<a href="#">Brand Exchange</a>
+						<a href="#">Publisher Logistics</a>
+						<a href="#">Become a Publisher Partner</a>
+				</div>
+				<div>
+					<h4>Learning Center</h4>
+						<a href="#">Case Studies</a>
+						<a href="#">White Papers</a>
+						<a href="#">Creative Showcase</a>
+						<a href="#">Video Library</a>
+						<a href="#">Blog</a>
+				</div>
+				<div>
+					<h4>Why Centro</h4>
+						<a href="#">Subpage 1</a>
+						<a href="#">Subpage 2</a>
+						<a href="#">Subpage 3</a>
+						<a href="#">Subpage 4</a>
+				</div>
+				<div>
+					<h4>More Centro</h4>
+						<a href="#">About</a>
+						<a href="#">News</a>
+						<a href="#">Careers</a>
+						<a href="#">Privacy Policy</a>
+						<a href="#">Conect with us</a>
+				</div>
+		</section>
+		<p>© Copyright 2014 - All rights reserved</p>
+	</footer>
+	<script src="script.js"></script>
 </body>
 </html>
